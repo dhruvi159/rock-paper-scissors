@@ -9,6 +9,7 @@ let result;
 
 possibleChoice.forEach(possibleChoice => possibleChoice.addEventListener("click",myFunction()));
 
+
 function myFunction(e){
    
     userChoice = e.target.id;
